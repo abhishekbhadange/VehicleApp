@@ -16,5 +16,5 @@ A threshold distance was set at the server. Whenever the car's distance from the
 distance, a command to stop the car was issued from the server to the android application. In case of audio command, a specific 
 audio file stored on the mobile phones' internal storage was played using media player to control the car. And in other case, 
 a string "F" (meaning continue moving forward) or "S" (meaning stop) was sent from the server to control the car movement using 
-the camera flash. Basically in the second case, the camera's LED flash reamined on until the car crossed the threshold distance 
+the camera flash. Basically in the second case, the camera's LED flash remained on until the car crossed the threshold distance 
 from the accident site. All communcation between the server and the android application was carried out using sockets.
